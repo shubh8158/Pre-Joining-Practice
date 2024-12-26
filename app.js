@@ -188,9 +188,38 @@
 //     console.log(dice());
 // }
 
-let button= document.createElement("button");
-let input=document.createElement("input");
-btn.innerText="Click ME!";
+// let button= document.createElement("button");
+// let input=document.createElement("input");
+// btn.innerText="Click ME!";
 
-document.querySelector("body").append(button);
-document.querySelector("body").append(input);
+// document.querySelector("body").append(button);
+// document.querySelector("body").append(input);
+
+// JQUERY
+// function func1(){
+//     // $("#demo1").css('background-color','crimson');
+//     // $("#demo1,#demo3").css('background-color','blue');
+//     // $("#demo1,#demo3").css('color','red');
+//     // $("li:even").fadeToggle();
+// }
+
+// Events
+$("document").ready(function (){
+    // $("#demo1").mouseenter(()=>{
+    //     $("#demo1").css('width','100px');
+    // });
+    // $("#demo1").mouseleave(()=>{
+    //     $("#demo1").css('width','400px');
+    // });
+    $("#demo1").hover(func1,func2);
+    function func1(){
+     $("#demo1").css('width','400px');
+     $("#demo1").css('background-color','green');
+    $("#demo1").css('transform','scale(1.5)');
+
+    }
+    function func2(){
+     $("#demo1").css('width','200px');
+     $("#demo1").css('background-color','red');
+    }
+})

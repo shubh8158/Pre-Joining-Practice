@@ -1,0 +1,29 @@
+#demo1{
+    margin: auto;
+    height: 250px;
+    width: 200px;
+    position: relative;
+    border: 2px black wavy;
+    background-color: coral;
+}
+#demo2{
+    margin: auto;
+    margin-top: 10px;
+    height: 250px;
+    width: 200px;
+    position: relative;
+    border: 2px black wavy;
+    background-color: cadetblue;
+}
+#demo3{
+    margin: auto;
+    margin-top: 10px;
+    height: 250px;
+    width: 200px;
+    position: relative;
+    border: 2px black wavy;
+    background-color: cadetblue;
+}
+button{
+    margin: 10px auto;
+}
